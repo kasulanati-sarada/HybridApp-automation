@@ -1,0 +1,23 @@
+{
+  "name": "trymac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumber-test": "./node_modules/.bin/cucumber-js",
+    "protractor-test": "protractor conf.js",
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "2.3.1",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^4.0.8",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wd": "^1.11.1",
+    "webdriver-manager": "^13.0.0"
+  }
+}
